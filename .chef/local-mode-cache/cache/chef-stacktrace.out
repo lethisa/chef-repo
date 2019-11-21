@@ -1,0 +1,17 @@
+Generated at 2019-11-12 10:36:26 +0700
+Chef::Exceptions::RecipeNotFound: could not find recipe file /home/lethisa/Documents/chef-master/chef-repo/cookbooks/recipe[webserver]
+/opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.4.56/lib/chef/run_context.rb:365:in `load_recipe_file'
+/opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.4.56/lib/chef/policy_builder/expand_node_object.rb:100:in `block in setup_run_context'
+/opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.4.56/lib/chef/policy_builder/expand_node_object.rb:99:in `each'
+/opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.4.56/lib/chef/policy_builder/expand_node_object.rb:99:in `setup_run_context'
+/opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.4.56/lib/chef/client.rb:515:in `setup_run_context'
+/opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.4.56/lib/chef/client.rb:281:in `run'
+/opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.4.56/lib/chef/application.rb:303:in `run_with_graceful_exit_option'
+/opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.4.56/lib/chef/application.rb:279:in `block in run_chef_client'
+/opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.4.56/lib/chef/local_mode.rb:44:in `with_server_connectivity'
+/opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.4.56/lib/chef/application.rb:261:in `run_chef_client'
+/opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.4.56/lib/chef/application/client.rb:440:in `run_application'
+/opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.4.56/lib/chef/application.rb:66:in `run'
+/opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.4.56/bin/chef-client:25:in `<top (required)>'
+/usr/bin/chef-client:292:in `load'
+/usr/bin/chef-client:292:in `<main>'
